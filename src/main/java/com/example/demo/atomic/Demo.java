@@ -18,6 +18,7 @@ public class Demo {
         int[] a = new int[2];
         for (int i = 0; i < nums.length; i++) {
             // 减少循环次数nums
+
             if (nums[i] <= target) {
                 for (int j = i + 1; j < nums.length; j++) {
                     if ( nums[i] + nums[j] == target) {
