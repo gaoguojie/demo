@@ -1,0 +1,8 @@
+BiasedLockDemo
+打开偏向锁
+-XX:+UseBiasedLocking
+-XX:+BiasedLockingStartupDelay=0
+
+
+关闭偏向锁
+-XX:-UseBiasedLocking

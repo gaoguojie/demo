@@ -1,0 +1,7 @@
+关闭锁消除参数：
+-XX:+DoEscapeAnalysis -XX:-EliminateLocks
+耗时：560 ms
+
+打开锁消除参数：
+-XX:+DoEscapeAnalysis -XX:+EliminateLocks
+耗时：508 ms
