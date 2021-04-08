@@ -8,10 +8,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class AtomicIntegerTest {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         AtomicInteger ai = new AtomicInteger(3);
-
         System.out.println(ai.getAndIncrement());
 
         System.out.println(ai.get());
@@ -21,6 +20,8 @@ public class AtomicIntegerTest {
         System.out.println(ai.getAndDecrement());
 
         System.out.println(ai.get());
+
+
 
     }
 
